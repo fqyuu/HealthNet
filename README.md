@@ -23,7 +23,7 @@ After you have completed all the steps and gained access to MIMIC data, place th
 ```bash
 $ python bulid_CPmatrix.py
 ```
-The functions constructing conditional probability matrices, building multi-dependency graph and learning the node embedding are encapsulated in the same script. Note that the embedding size can be configured through util.py
+The functions constructing conditional probability matrices, building multi-dependency graph and learning the node embedding are encapsulated in the same script. Note that the embedding size of node can be configured through util.py
 
 ### 2. Perform Healthcare Tasks Using Hierarchical Sequence Model
 
