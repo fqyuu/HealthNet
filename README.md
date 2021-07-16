@@ -8,7 +8,7 @@ Install tensorflow 1.12.2.
 
 ## Data
 
-We provide a processed CS dataset for training/evaluation. Please click [MIMIC](https://mimic.mit.edu/docs/gettingstarted/) to get the instructions for getting access to MIMIC-III. Researchers seeking to use the database must:
+We provide a processed CS dataset for training/evaluation. Please click [here](https://mimic.mit.edu/docs/gettingstarted/) to get the instructions for getting access to MIMIC-III. Researchers seeking to use the database must:
 
 - Become a credentialed user on PhysioNet. This involves completion of a training course in human subjects research.
 - Sign the data use agreement (DUA). Adherence to the terms of the DUA is paramount.
