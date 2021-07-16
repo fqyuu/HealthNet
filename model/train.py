@@ -11,16 +11,15 @@ from data_process.util import dataset_name,embedding_size,task,dataset_path
 
 tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR)
 tf.compat.v1.flags.DEFINE_string("mode", "train", "set train for training and validation set, set test for testiing set")
-# tf.compat.v1.flags.DEFINE_string("task", "readm", "readm: readmission prediction. end: end point prediction. diag: diagnosis prediction")
 FLAGS = tf.compat.v1.flags.FLAGS
 
-embedding_path = dataset_path+'{}/input/node_embedding_'.format(dataset_name)+str(embedding_size)+'_p0.1q0.2'
+embedding_path = dataset_path+'{}/input/node_embedding_'.format(dataset_name)+str(embedding_size)
 dict_list_path = dataset_path+'{}/input/dict_list.pkl'.format(dataset_name)
 input_path_train = dataset_path+'{}/input/train.pkl'.format(dataset_name)
 input_path_valid = dataset_path+'{}/input/valid.pkl'.format(dataset_name)
 input_path_test = dataset_path+'{}/input/test.pkl'.format(dataset_name)
 
-save_model_dir='../../save/Causalmodel/{}/'.format(dataset_name)+task+'/'+str(embedding_size)+'_p0.1q0.2'
+save_model_dir='../../save/Causalmodel/{}/'.format(dataset_name)+task+'/'+str(embedding_size)
 # save_model_dir=save_model_dir+'/NT/'
 if not os.path.exists(save_model_dir):
     os.makedirs(save_model_dir)
