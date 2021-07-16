@@ -2,9 +2,9 @@
 
 ## Installation
 
-Install Python 3.5.
+Install Python 3.7.9.
 
-Install tensorflow 1.12.2.
+Install tensorflow 2.0.0.
 
 ## Data
 
