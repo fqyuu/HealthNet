@@ -26,6 +26,7 @@ Due to the sensitivity and confidentiality of EHR data, please click [here](http
 
 ### 1. Data Preprocessing
 After you have completed all the steps and gained access to MIMIC data, place the files 'ADMISSIONS.csv', 'DIAGNOSES_ICD.csv', 'PATIENTS.csv', 'PRESCRIPTIONS.csv' and 'PROCEDURES_ICD.csv' under the folder 'data'.
+
 All the functions of data preprocessing are encapsulated and executed in step 2. 
 
 ### 2. Build Graph and Learn Node Embedding
