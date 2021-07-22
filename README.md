@@ -8,11 +8,13 @@ If you plan to use GPU computation, install CUDA.
 
 ## Data
 
-We provide the links to obtain the data file used:
+We provide the links to obtain the file or tools needed in data preprocessing:
 
-- [ccs_multi_dx_tool_2015.csv](https://www.hcup-us.ahrq.gov/toolssoftware/ccs/ccs.jsp#download): the target file is Multi-Level CCS (ZIP file)
+- [ccs_multi_dx_tool_2015.csv](https://www.hcup-us.ahrq.gov/toolssoftware/ccs/Multi_Level_CCS_2015.zip): Multi-level CCS (Clinical Classification Software) for ICD9.
 
-- [MEDI_11242015.csv](https://www.vumc.org/cpm/cpm-blog/medi-ensemble-medication-indication-resource-0): the target file is MEDI_UMLS.csv
+- [MEDI_11242015.csv](https://www.vumc.org/cpm/sites/vumc.org.cpm/files/public_files/MEDI_11242015.csv): MEDI (MEDication Indication) is an ensemble medication indication resource for primary and secondary uses of electronic medical record (EMR) data.
+
+- [ndc2atc_level4.csv, ndc_rxnorm_mapping.txt](https://github.com/sjy1203/GAMENet/tree/master/data): mapping files for drug code transformation.
 
 Due to the sensitivity and confidentiality of EHR data, please click [here](https://mimic.mit.edu/docs/gettingstarted/) to get the instructions for getting access to MIMIC-III. Researchers seeking to use the database must:
 
